@@ -6,6 +6,7 @@
 ## of a square matrix x the list is intended be used in the 
 ## function cacheSolve defined below
 ## 
+##
 makeCacheMatrix <- function(x = matrix()) {
    my_mat <- NULL
    set <- function(y){
@@ -45,7 +46,7 @@ my_mat
 # D  <- matrix(c(1,0,1,2,1,0,0,0,1), nrow = 3, ncol= 3)
 # B <- makeCacheMatrix(D)
 # cacheSolve(B)
-# cacheSolve(B)  (the second run should retrieved the cached inverse)
+# cacheSolve(B)  #(the second run should retrieved the cached inverse)
 #
 # B$set(matrix(1:4,nrow=2,ncol=2))
 # cacheSolve(B)
